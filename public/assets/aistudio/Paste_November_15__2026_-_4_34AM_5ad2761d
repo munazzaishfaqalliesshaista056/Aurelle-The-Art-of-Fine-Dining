@@ -1,0 +1,1063 @@
+Act as a world-class UI/UX designer, senior frontend developer, creative director, and full-stack web developer. Build a complete, production-ready, premium restaurant website inspired by the uploaded visual reference image.
+
+Your task is to transform the reference into an original, visually stunning, modern fine-dining restaurant website that looks like a professionally designed website commissioned by a high-end restaurant client.
+
+IMPORTANT: Study the uploaded reference image carefully and use it as the primary visual design direction. Recreate its premium aesthetic, layout composition, section hierarchy, spacing, visual balance, and overall design quality, but create an entirely original brand identity. Do not copy the reference restaurant's name, logo, exact text, or branding.
+
+The website must be fully functional, responsive, polished, and ready for deployment on Hostinger.
+
+# 1. PROJECT OBJECTIVE
+
+Create a premium fine-dining restaurant website with these characteristics:
+
+- Elegant, luxurious, sophisticated, and welcoming visual identity.
+- Minimalist navigation with a premium restaurant aesthetic.
+- Beautiful food photography throughout the website.
+- Strong visual hierarchy and excellent whitespace management.
+- Professional food menu with interactive category filtering.
+- Attractive food cards with prices, descriptions, and ratings.
+- Conversion-focused reservation and ordering buttons.
+- Smooth animations and subtle interactive details.
+- Fully responsive design for desktop, tablet, and mobile.
+- Production-quality frontend code with a clean and maintainable structure.
+
+Create an original fictional restaurant brand.
+
+Suggested brand identity: **AURELLE – THE ART OF FINE DINING**
+
+The brand should feel exclusive, elegant, and memorable. Create an original typographic logo using CSS or SVG rather than copying any existing logo.
+
+# 2. TECHNOLOGY STACK AND DEVELOPMENT REQUIREMENTS
+
+Use the following technology stack:
+
+- React.js for the frontend.
+- Vite as the development and build tool.
+- Tailwind CSS or clean, well-structured CSS for styling.
+- Lucide React for elegant interface icons.
+- React Router if multiple pages are necessary.
+- JavaScript or TypeScript with clean component architecture.
+
+Technical requirements:
+
+1. Generate a complete working website, not just a design mockup.
+2. Use reusable React components.
+3. Maintain a clean folder and file structure.
+4. Avoid unnecessary dependencies.
+5. Ensure all imports and dependencies are correctly configured.
+6. Implement responsive layouts using modern CSS techniques.
+7. Ensure there are no console errors.
+8. Ensure there are no broken images, missing assets, or nonfunctional buttons.
+9. Use semantic HTML and accessible interface elements.
+10. Optimize images and performance.
+11. Ensure the production build completes successfully.
+12. Make the project compatible with Hostinger static website hosting.
+13. Provide all necessary source files and configuration files.
+14. Do not leave unfinished components, TODO comments, or incomplete sections.
+
+# 3. COMPLETE VISUAL DESIGN SYSTEM
+
+Follow the visual language of the uploaded reference.
+
+## Color Palette
+
+Use a warm, sophisticated restaurant-inspired palette.
+
+Primary colors:
+
+- Warm Ivory: #F8F5F0
+- Cream White: #FFFCF8
+- Champagne Beige: #EDE3D5
+- Soft Gold: #B68A48
+- Muted Bronze: #997443
+- Deep Charcoal: #24211F
+- Warm Black: #151311
+- Muted Grey: #77716B
+- Light Border: #EAE5DE
+
+Usage:
+
+- Main page background: warm ivory or cream white.
+- Navigation: clean white or warm ivory.
+- Primary buttons: muted champagne gold.
+- Main headings: deep charcoal.
+- Highlighted heading words: soft gold.
+- Card backgrounds: white.
+- Borders: subtle warm grey.
+- Promotional banner: dark cinematic background with golden lighting.
+
+Avoid excessive gold, bright colors, neon effects, or overly decorative gradients.
+
+The website should feel luxurious without looking crowded.
+
+# 4. TYPOGRAPHY
+
+Use a sophisticated combination of fonts.
+
+Suggested typography:
+
+- Headings: Playfair Display or Cormorant Garamond.
+- Body text: Inter or Lato.
+- Navigation: Inter with slightly increased letter spacing.
+- Small labels: uppercase Inter with subtle tracking.
+
+Typography hierarchy:
+
+- Main hero heading: approximately 48–64px on desktop.
+- Section headings: 28–36px.
+- Product names: 17–19px.
+- Body text: 14–16px.
+- Navigation: 12–14px.
+- Small category labels: 10–12px.
+
+Use elegant serif typography for headings and clean sans-serif typography for body content.
+
+Maintain consistent line heights, text spacing, and alignment.
+
+# 5. HEADER AND NAVIGATION
+
+Create a professional two-level header inspired by the reference.
+
+## Top Information Bar
+
+A very slim horizontal information bar at the top.
+
+Left side:
+- Phone icon and restaurant contact number.
+- Email icon and restaurant email.
+
+Center:
+- Short promotional message, such as:
+  "Complimentary Delivery on Orders Above $50"
+
+Right side:
+- "Follow Us:"
+- Facebook icon.
+- Instagram icon.
+- Other relevant social icons.
+
+Use a light champagne background with small, elegant text.
+
+Make contact information clickable.
+
+## Main Navigation
+
+Create a clean white navigation area beneath the information bar.
+
+Desktop layout:
+
+Left:
+- HOME
+- MENU
+- ABOUT
+
+Center:
+- Original restaurant logo.
+- Small decorative crown or minimalist ornamental icon above the brand name.
+- Restaurant tagline underneath.
+
+Right:
+- RESERVATION
+- PAGES dropdown
+- Search icon
+- Shopping bag icon with cart count.
+
+Requirements:
+
+- Proper horizontal alignment.
+- Generous spacing.
+- Elegant uppercase navigation labels.
+- Subtle underline animation on hover.
+- Sticky navigation on scroll.
+- Transparent or solid background transition when scrolling.
+- Dropdown navigation should work.
+- Search should open a functional search interface.
+- Cart icon should open the shopping cart panel.
+
+Mobile navigation:
+
+- Compact logo.
+- Hamburger menu.
+- Slide-in navigation drawer.
+- Clear reservation CTA.
+- Smooth opening and closing animations.
+
+# 6. HERO SECTION – MAIN VISUAL IMPACT
+
+This is the most important visual section.
+
+Recreate the composition and premium visual balance of the reference image without copying its exact assets or content.
+
+Desktop layout:
+
+- Full-width hero section.
+- Approximately 440–520px height.
+- Two visually balanced areas.
+- Left side: text content.
+- Right side: large, beautiful food photograph.
+
+Left content:
+
+Small uppercase gold eyebrow:
+
+"EXPERIENCE EXCEPTIONAL DINING"
+
+Large elegant heading:
+
+"Exceptional Flavors,
+Unforgettable Moments"
+
+Highlight "Unforgettable Moments" in muted champagne gold.
+
+Supporting description:
+
+"Discover a refined dining experience where exceptional ingredients, inspired culinary artistry, and warm hospitality come together."
+
+Second short line:
+
+"Every plate tells a story. Every visit becomes a memory."
+
+Two CTA buttons:
+
+1. "BOOK A TABLE"
+2. "EXPLORE MENU"
+
+Button design:
+
+- Primary: champagne-gold background, white or dark text, elegant hover transition.
+- Secondary: transparent background, thin charcoal border.
+- Slightly rounded corners.
+- Professional spacing.
+- Smooth hover effects.
+
+Right-side image:
+
+Use a breathtaking, high-resolution editorial food photograph showing an elegant fine-dining main course, such as beautifully plated grilled salmon or a chef-crafted gourmet dish.
+
+Image characteristics:
+
+- Professional food photography.
+- Natural window lighting.
+- Beautiful plating.
+- Rich but realistic food colors.
+- Premium restaurant presentation.
+- Neutral, sophisticated background.
+- Sharp food details.
+- Magazine-quality composition.
+
+Use an organic, elegant image placement with a large rounded or softly curved edge.
+
+Add subtle botanical or decorative background details around the photograph if they improve the composition.
+
+Hero background:
+
+- Warm ivory.
+- Very subtle beige gradients.
+- Soft decorative textures.
+- No distracting patterns.
+
+Include three small carousel indicators below the hero content.
+
+If implementing a carousel, make the indicators functional and provide three distinct slides with different food imagery and promotional copy.
+
+The hero must look premium immediately when the website loads.
+
+# 7. MENU CATEGORIES SECTION
+
+Create a visually appealing section directly below the hero.
+
+Section heading:
+
+"OUR MENU CATEGORIES"
+
+Use elegant centered serif typography.
+
+Add a small decorative divider beneath the heading.
+
+Display six circular category images in a horizontal row on desktop.
+
+Categories:
+
+1. Starters
+2. Main Course
+3. Desserts
+4. Beverages
+5. Pizza
+6. Chef's Specials
+
+Visual design:
+
+- Circular food photographs.
+- Approximately 115–135px diameter on desktop.
+- Consistent image dimensions.
+- White circular border or soft outer shadow.
+- Category name beneath each image.
+- Centered alignment.
+- Balanced horizontal spacing.
+
+Hover interactions:
+
+- Slight image zoom.
+- Subtle elevation.
+- Elegant transition.
+- Gold accent border on hover or active state.
+
+Make each category clickable.
+
+On clicking a category, automatically navigate or scroll to the menu section and display the relevant products.
+
+Mobile behavior:
+
+- Horizontally scrollable category row.
+- Smooth touch scrolling.
+- No overflowing page layout.
+
+# 8. CHEF'S RECOMMENDATIONS – PRODUCT MENU
+
+Create a premium food product section inspired by the reference image.
+
+Section heading:
+
+"CHEF'S RECOMMENDATIONS"
+
+Add a small decorative divider.
+
+Below the heading, create interactive category filter tabs:
+
+- All Items
+- Starters
+- Main Course
+- Desserts
+- Beverages
+- Pizza
+
+The active category should have a gold accent.
+
+Clicking each filter must dynamically display the relevant food cards without refreshing the page.
+
+## Food Product Grid
+
+Desktop:
+
+- Four columns.
+- Two or more rows.
+- Equal card widths.
+- Consistent spacing.
+- Attractive food photography.
+
+Tablet:
+
+- Two or three columns depending on screen width.
+
+Mobile:
+
+- Two columns where space permits.
+- One column on very narrow screens if necessary.
+
+Each food card must include:
+
+1. High-quality food image.
+2. Small badge when appropriate, such as BESTSELLER, NEW, or CHEF'S PICK.
+3. Product name.
+4. Short, appetizing description.
+5. Star rating.
+6. Review count.
+7. Price.
+8. Add to Cart button or icon.
+
+Use these original menu products:
+
+**1. Herb-Crusted Salmon**
+Category: Main Course
+Description: Fresh salmon with aromatic herbs, seasonal vegetables, and a delicate butter sauce.
+Price: $24.99
+Rating: 4.8
+
+**2. Creamy Garlic Prawn Pasta**
+Category: Main Course
+Description: Handmade pasta tossed with tender prawns in a rich garlic cream sauce.
+Price: $21.99
+Rating: 4.7
+
+**3. Signature Ribeye Steak**
+Category: Main Course
+Description: Perfectly grilled premium steak served with roasted vegetables.
+Price: $29.99
+Rating: 4.9
+
+**4. Classic Tiramisu**
+Category: Desserts
+Description: Traditional Italian-inspired dessert layered with coffee and mascarpone.
+Price: $8.99
+Rating: 4.8
+
+**5. Truffle Mushroom Risotto**
+Category: Main Course
+Description: Creamy arborio rice with wild mushrooms and delicate truffle aroma.
+Price: $18.99
+Rating: 4.7
+
+**6. Margherita Pizza**
+Category: Pizza
+Description: Fresh mozzarella, ripe tomatoes, basil, and a crisp artisan crust.
+Price: $16.99
+Rating: 4.8
+
+**7. Mango Passion Mocktail**
+Category: Beverages
+Description: A refreshing tropical blend of mango, citrus, and passion fruit.
+Price: $7.99
+Rating: 4.9
+
+**8. Chocolate Lava Cake**
+Category: Desserts
+Description: Warm chocolate dessert served with creamy vanilla ice cream.
+Price: $9.99
+Rating: 4.9
+
+Add more products if necessary to make category filtering and the shopping experience complete.
+
+## Card Design
+
+- Pure white card background.
+- Subtle warm-grey border.
+- Small rounded corners.
+- Soft, natural shadow.
+- Food image occupying the upper portion.
+- Consistent image aspect ratio.
+- Text aligned left.
+- Elegant typography.
+- Gold star ratings.
+- Price clearly visible.
+- Add-to-cart interaction.
+
+Hover effect:
+
+- Image zoom approximately 1.04x.
+- Slight card elevation.
+- Smooth transition.
+- Add-to-cart icon becomes more prominent.
+
+Do not use excessive shadows or oversized rounded cards.
+
+All food images must be visually different and relevant to their products.
+
+# 9. PROMOTIONAL BANNER
+
+Create a full-width cinematic promotional section beneath the food grid.
+
+Use a beautiful, dark restaurant dining photograph as the background.
+
+Image concept:
+
+- Elegant candlelit restaurant table.
+- Warm golden lighting.
+- Beautiful glassware.
+- Sophisticated table arrangement.
+- Cinematic shallow depth of field.
+- Premium hospitality atmosphere.
+
+Add a dark translucent overlay to ensure text readability.
+
+Centered content:
+
+Small gold uppercase label:
+
+"EXCLUSIVE DINING OFFER"
+
+Large elegant heading:
+
+"Make Every Visit More Special"
+
+Supporting line:
+
+"Enjoy 20% OFF your first order and discover the pleasure of exceptional dining."
+
+CTA button:
+
+"ORDER NOW"
+
+Design requirements:
+
+- Approximately 220–280px height on desktop.
+- Background image covers the complete section.
+- Elegant centered content.
+- Gold accent button.
+- Strong contrast.
+- Subtle zoom effect on background during hover or scroll, without affecting readability.
+
+Make the CTA functional by opening the menu or ordering interface.
+
+# 10. RESTAURANT BENEFITS / WHY CHOOSE US
+
+Create a clean, elegant benefits strip beneath the promotional banner.
+
+Use four evenly spaced columns on desktop.
+
+Each benefit should include a simple gold line icon, bold title, and small supporting description.
+
+Benefits:
+
+**Fresh Ingredients**
+"Carefully selected seasonal ingredients."
+
+**Expert Chefs**
+"Passionately prepared by culinary professionals."
+
+**Cozy Ambience**
+"A beautiful atmosphere for every occasion."
+
+**Fast Delivery**
+"Your favorite dishes, delivered with care."
+
+Use suitable Lucide icons.
+
+Design:
+
+- Warm ivory background.
+- Minimalist icon illustrations.
+- Centered text.
+- Thin decorative separators where appropriate.
+- Comfortable vertical padding.
+
+On mobile, arrange the benefits in a clean two-column grid or stacked layout.
+
+# 11. ADDITIONAL PROFESSIONAL SECTIONS
+
+Make the website feel like a complete commercial restaurant website rather than a single landing-page mockup.
+
+Include these additional sections while maintaining the reference's minimalist visual direction.
+
+## A. About Our Restaurant
+
+Section title:
+
+"A Passion for Exceptional Food"
+
+Create an elegant two-column layout.
+
+Left:
+- Large editorial photograph of an elegant restaurant interior or chef preparing food.
+
+Right:
+- Small uppercase label: "OUR STORY"
+- Elegant serif heading.
+- Two short professional paragraphs explaining the restaurant's philosophy.
+- Three small highlights:
+  - Carefully sourced ingredients.
+  - Creative culinary expertise.
+  - Memorable dining experiences.
+- CTA: "DISCOVER OUR STORY"
+
+Use balanced spacing and refined typography.
+
+## B. Chef's Special / Signature Experience
+
+Create a visually attractive feature section showcasing one signature dish.
+
+Include:
+
+- Large high-quality food image.
+- Dish name.
+- Short description.
+- Price.
+- Small chef recommendation label.
+- "EXPLORE DISH" button.
+
+Use an asymmetric layout for visual interest.
+
+## C. Customer Testimonials
+
+Section heading:
+
+"WHAT OUR GUESTS SAY"
+
+Display three elegant testimonial cards.
+
+Each card should contain:
+
+- Five-star rating.
+- Short realistic customer testimonial.
+- Customer name.
+- Small avatar or tasteful initials.
+
+Keep testimonials visually clean and believable. Do not use excessive decorations.
+
+## D. Newsletter Subscription
+
+Create a simple premium newsletter section.
+
+Heading:
+
+"A Taste of Something Special"
+
+Description:
+
+"Subscribe to receive exclusive offers, seasonal menus, and restaurant updates."
+
+Include:
+
+- Email input.
+- Subscribe button.
+- Basic input validation.
+- Success feedback after successful frontend submission.
+
+Do not falsely claim that emails are stored or sent to a backend if no backend integration exists.
+
+# 12. RESERVATION SYSTEM
+
+Create a fully designed reservation experience.
+
+The navigation's RESERVATION link and the hero's BOOK A TABLE button must open the reservation interface.
+
+Build a premium reservation page or modal containing:
+
+- Guest name.
+- Email address.
+- Contact number.
+- Reservation date.
+- Reservation time.
+- Number of guests.
+- Special requests.
+- Confirm Reservation button.
+
+Requirements:
+
+- Proper form validation.
+- Required field indicators.
+- Date selection must prevent past dates.
+- Responsive form design.
+- Elegant success confirmation.
+- Clear error messages.
+
+If no backend is configured, implement a functional frontend demonstration and clearly communicate that the reservation request is a demo rather than falsely claiming that a booking has been confirmed with the restaurant.
+
+Structure the code so a real booking API can be integrated later.
+
+# 13. SHOPPING CART AND ORDERING EXPERIENCE
+
+Implement a functional frontend shopping cart.
+
+Features:
+
+- Add products to cart.
+- Increase and decrease quantities.
+- Remove products.
+- Automatically calculate subtotal.
+- Display cart item count.
+- Update the cart icon count immediately.
+- Show an empty cart message.
+- Provide a clear checkout button.
+- Display order summary.
+
+Use React state or an appropriate lightweight state-management approach.
+
+Persist the cart in localStorage so products remain in the cart after refreshing the page.
+
+The checkout process can be a polished frontend demonstration if no payment provider is configured.
+
+Never simulate an actual payment or claim an order was successfully placed without a real payment/order integration.
+
+# 14. FOOTER DESIGN
+
+Create a beautiful, premium multi-column footer.
+
+Use a deep charcoal or warm black background.
+
+Footer layout:
+
+**Column 1 – Brand**
+
+- Original restaurant logo.
+- Short restaurant description.
+- Social media icons.
+
+**Column 2 – Quick Links**
+
+- Home
+- About
+- Menu
+- Reservation
+- Contact
+
+**Column 3 – Opening Hours**
+
+- Monday – Friday
+- Saturday – Sunday
+- Holiday timings
+
+Use reasonable sample opening hours.
+
+**Column 4 – Contact Information**
+
+- Sample restaurant address.
+- Phone number.
+- Email address.
+
+Use clickable phone and email links.
+
+Add a subtle bottom divider.
+
+Copyright text:
+
+"© 2026 Aurelle Fine Dining. All Rights Reserved."
+
+Include links to:
+
+- Privacy Policy
+- Terms & Conditions
+
+Footer should look elegant, balanced, and professional.
+
+# 15. IMAGE GENERATION AND VISUAL ASSET REQUIREMENTS
+
+This is an extremely important requirement.
+
+The website must be visually rich and must not contain empty image boxes, generic placeholders, grey image backgrounds, or broken image links.
+
+Automatically generate or source appropriate high-quality images wherever the available environment supports it.
+
+Create or source separate, relevant photographs for:
+
+1. Main hero gourmet dish.
+2. Starters category.
+3. Main course category.
+4. Dessert category.
+5. Beverage category.
+6. Pizza category.
+7. Chef's special category.
+8. Herb-crusted salmon.
+9. Creamy garlic prawn pasta.
+10. Ribeye steak.
+11. Tiramisu.
+12. Truffle mushroom risotto.
+13. Margherita pizza.
+14. Mango passion mocktail.
+15. Chocolate lava cake.
+16. Restaurant interior.
+17. Chef preparing food.
+18. Promotional candlelit dining background.
+19. Signature dish feature.
+
+Image art direction:
+
+- Professional food photography.
+- High-end restaurant advertising aesthetic.
+- Natural and cinematic lighting.
+- Rich food textures.
+- Realistic ingredients.
+- Sophisticated plating.
+- Warm neutral backgrounds.
+- Editorial composition.
+- High resolution.
+- Consistent photography quality.
+
+Avoid:
+
+- Cartoon-style food.
+- AI-looking distorted ingredients.
+- Repeated photographs for different products.
+- Watermarks.
+- Random stock photography.
+- Inappropriate image cropping.
+- Images unrelated to the food product.
+
+If native image generation is available, generate original visual assets.
+
+If it is not available, use reliable, accessible image URLs from appropriate image sources. Choose actual relevant images rather than generic placeholders.
+
+Store locally generated image assets in a clean public/assets directory whenever possible.
+
+Use descriptive filenames and optimized formats such as WebP.
+
+Every image must have suitable alt text.
+
+Ensure images load correctly after deployment.
+
+# 16. ANIMATIONS AND MICRO-INTERACTIONS
+
+Add sophisticated, smooth, restrained animations.
+
+The website should feel alive without becoming distracting.
+
+Implement:
+
+**Page loading**
+- Elegant initial fade-in.
+- Avoid long loading screens.
+
+**Scroll animations**
+- Fade-in and slight upward movement as sections enter the viewport.
+- Use Intersection Observer where appropriate.
+- Trigger animations only once when suitable.
+
+**Navigation**
+- Smooth underline hover effect.
+- Sticky header transition.
+- Smooth dropdown appearance.
+
+**Buttons**
+- Subtle background transition.
+- Slight hover elevation.
+- Smooth active state.
+
+**Food cards**
+- Image zoom.
+- Slight card elevation.
+- Add-to-cart feedback.
+
+**Category filters**
+- Smooth active indicator.
+- Elegant product grid transitions.
+
+**Shopping cart**
+- Smooth slide-in drawer.
+- Animated cart count update.
+- Clear quantity feedback.
+
+**Reservation**
+- Smooth modal appearance.
+- Accessible close button.
+
+**Page scrolling**
+- Smooth anchor navigation.
+- Back-to-top button after scrolling.
+
+Use CSS transitions and lightweight animation techniques.
+
+Avoid excessive animation libraries or effects that reduce performance.
+
+# 17. RESPONSIVE DESIGN REQUIREMENTS
+
+The website must be fully responsive and tested across different screen sizes.
+
+Desktop:
+- 1440px and above.
+- 1280px.
+- 1024px.
+
+Tablet:
+- 768px.
+- 820px.
+
+Mobile:
+- 430px.
+- 390px.
+- 375px.
+- 320px.
+
+Desktop requirements:
+
+- Full navigation.
+- Two-column hero.
+- Four-column menu grid.
+- Horizontal category layout.
+- Multi-column footer.
+
+Tablet requirements:
+
+- Adjust hero proportions.
+- Reduce heading sizes.
+- Adapt menu columns.
+- Keep comfortable spacing.
+- Avoid squeezed navigation.
+
+Mobile requirements:
+
+- Hamburger navigation.
+- Stacked hero content.
+- Properly cropped hero image.
+- Readable typography.
+- Horizontally scrollable category navigation.
+- Two-column food grid where appropriate.
+- Single-column forms.
+- Touch-friendly buttons.
+- Properly spaced sections.
+- Compact information bar.
+- Responsive footer.
+
+CRITICAL:
+
+- No horizontal page overflow.
+- No overlapping elements.
+- No clipped headings.
+- No distorted photographs.
+- No tiny text.
+- No inaccessible buttons.
+- No broken navigation.
+- No layout shifts caused by image loading.
+
+Use responsive typography with clamp() where appropriate.
+
+# 18. SEO AND PERFORMANCE OPTIMIZATION
+
+Implement basic professional SEO.
+
+Include:
+
+- Appropriate page title.
+- Meta description.
+- Open Graph metadata.
+- Descriptive heading hierarchy.
+- Semantic HTML.
+- Descriptive image alt attributes.
+- Restaurant-related structured data using Schema.org where appropriate.
+- Proper favicon.
+- Optimized images.
+- Lazy loading for below-the-fold images.
+- Eager loading for the main hero image.
+- Clean URL structure if multiple pages are implemented.
+
+Performance:
+
+- Avoid unnecessarily large assets.
+- Avoid excessive dependencies.
+- Minimize layout shifts.
+- Use reusable components.
+- Keep CSS organized.
+- Ensure fast initial rendering.
+- Avoid unnecessary re-renders.
+
+Accessibility:
+
+- Keyboard-accessible navigation.
+- Visible focus states.
+- Appropriate contrast.
+- Accessible form labels.
+- ARIA attributes where necessary.
+- Reduced-motion support.
+
+# 19. FUNCTIONALITY CHECKLIST
+
+Before considering the project complete, verify every item below.
+
+Navigation:
+- Home navigation works.
+- Menu navigation works.
+- About navigation works.
+- Reservation navigation works.
+- Mobile hamburger menu works.
+- Dropdown menu works.
+- Search interface works.
+
+Hero:
+- Both CTA buttons work.
+- Carousel indicators work if carousel is implemented.
+
+Menu:
+- Category buttons filter products.
+- All Items restores the complete product grid.
+- Product cards display correct details.
+- Add-to-cart works.
+
+Shopping:
+- Cart count updates.
+- Quantity controls work.
+- Remove product works.
+- Subtotal updates correctly.
+- Cart persists after refresh.
+
+Reservation:
+- Modal or page opens correctly.
+- Form validation works.
+- Success and error states display properly.
+
+Newsletter:
+- Email validation works.
+- Feedback appears after submission.
+
+General:
+- All links have meaningful destinations.
+- All images load.
+- Mobile layout works.
+- Footer displays correctly.
+- No JavaScript errors.
+- Production build succeeds.
+
+# 20. HOSTINGER DEPLOYMENT COMPATIBILITY
+
+The final project must be suitable for deployment on Hostinger.
+
+Important requirements:
+
+- Use Vite with a production-ready build configuration.
+- Set the correct project base path for standard root-domain deployment.
+- Ensure the final build generates a dist folder.
+- Ensure all images and static assets use deployment-safe paths.
+- Avoid localhost-dependent production references.
+- Avoid requiring a development server after deployment.
+- Configure SPA fallback routing if React Router is used.
+- Include all necessary configuration files.
+- Provide clear deployment instructions for uploading the production build to Hostinger's public_html directory.
+- Make sure the generated project can be built using npm install and npm run build.
+
+Do not depend on paid APIs or external services for basic website functionality.
+
+# 21. FINAL DESIGN QUALITY EXPECTATIONS
+
+The final result must closely follow the visual direction of the uploaded reference:
+
+- Elegant, light, premium restaurant aesthetic.
+- Warm ivory and champagne-gold color palette.
+- Large editorial food photography.
+- Beautiful serif headings.
+- Minimalist two-level navigation.
+- Spacious hero composition.
+- Circular menu category photographs.
+- Clean four-column food product cards.
+- Cinematic promotional banner.
+- Minimalist restaurant benefits section.
+- Elegant supporting sections.
+- Premium charcoal footer.
+
+Pay special attention to:
+
+1. Consistent spacing throughout the page.
+2. Accurate visual proportions.
+3. Strong typography hierarchy.
+4. Beautiful image selection.
+5. Clean alignment.
+6. Consistent button styling.
+7. Proper card dimensions.
+8. Natural color harmony.
+9. Excellent mobile presentation.
+10. Overall premium visual consistency.
+
+Do not make the website look like a generic AI-generated template, a basic student project, or a standard Bootstrap layout.
+
+It should look like a real premium restaurant website designed by an experienced professional web design agency.
+
+# 22. FINAL EXECUTION INSTRUCTIONS
+
+Now begin building the complete website.
+
+Follow this order:
+
+1. Analyze the uploaded reference image.
+2. Establish the original restaurant brand identity.
+3. Set up the project architecture.
+4. Create the complete design system.
+5. Generate or source all necessary high-quality visual assets.
+6. Build all website sections.
+7. Implement all interactive features.
+8. Implement responsive behavior.
+9. Optimize performance and SEO.
+10. Test all interactions and responsive layouts.
+11. Run the production build.
+12. Fix all errors before delivering the final result.
+
+Do not stop after creating the hero section.
+
+Do not generate only a static landing-page screenshot.
+
+Do not provide an incomplete prototype.
+
+Do not leave placeholder images or unfinished sections.
+
+Do not sacrifice functionality for visual appearance or visual quality for functionality.
+
+**FINAL DELIVERABLE:**
+
+A complete, original, premium, fully responsive, interactive fine-dining restaurant website with all source code, configuration files, visual assets, and Hostinger deployment compatibility.
+
+The finished website must be visually impressive on its first load, professionally structured, easy to maintain, and ready for a real client presentation and deployment.
